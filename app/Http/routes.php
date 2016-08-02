@@ -12,14 +12,20 @@
 */
 
 Route::get('/', function () {
-	return view('test');
+	return view('welcome');
 });
 
 Route::get('/panel', function () {
 	return view('form_panel');
 });
 
+Route::get('/pompa', function () {
+	return view('form_pompa');
+});
 
+Route::get('/trafo', function () {
+	return view('form_trafo');
+});
 /*
 Route::get('login','AuthController');
 
